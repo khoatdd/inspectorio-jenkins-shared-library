@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 def call(Closure body) {
-    def dockerTool = tool name: 'docker', type: 'org.jenkinsci.plugins.docker.commons.tools.DockerTool'
+    def dockerTool = tool 'docker-latest'
     withEnv(["DOCKER=${dockerTool}/bin"]) {
         body()
     }
