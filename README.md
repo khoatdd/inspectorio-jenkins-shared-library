@@ -1,0 +1,1 @@
+# Inspectorio Jenkins shared library
