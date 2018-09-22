@@ -7,4 +7,5 @@ class GlobalVars {
     static String KUBER_TEST_CONTEXT = "TEST"
     static String KUBER_STG_CONTEXT = "STG"
     static String KUBER_PROD_CONTEXT = "PROD"
+    static String KUBER_CONFIG = "/home/.kube/config"
 }
